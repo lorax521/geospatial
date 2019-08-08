@@ -17,7 +17,8 @@ from scipy.spatial import cKDTree
 
 def idw(kdtree,z,xi,yi):
     """ Inverse Distance Weighting - interpolates an unknown value at a 
-    specified point by weighting the values of it's nearest neighbors
+    specified point by weighting the values of it's nearest neighbors.
+    Modify the neighbors and power for different results.
 
     Keyword arguments:
         kdtree: scipy.spatial.ckdtree -- kdtree made from a 2d array of x and y coordinates as the columns 

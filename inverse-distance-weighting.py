@@ -23,7 +23,7 @@ def distance_matrix(x, y, xi, yi):
     dist_mx = np.hypot(d0, d1)
     return dist_mx
 
-def idw(x,y,z,xi,yi):
+def idw(x, y, z, xi, yi):
     """ Inverse Distance Weighting - interpolates an unknown value at a 
     specified point by weighting the values of it's nearest neighbors
 
